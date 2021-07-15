@@ -1,0 +1,19 @@
+{
+  "name": "05-list-to-do",
+  "version": "0.0.1",
+  "description": "Manage a list to do by terminal",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelmunozprz/CURSO-NODEJS-LISTTODO.git"
+  },
+  "author": "Rafael Munoz Perez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaelmunozprz/CURSO-NODEJS-LISTTODO/issues"
+  },
+  "homepage": "https://github.com/rafaelmunozprz/CURSO-NODEJS-LISTTODO#readme"
+}
