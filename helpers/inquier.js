@@ -28,35 +28,8 @@ const inquirerMenu = async () => {
 
 
 const pause = async () => {
-    const question = [
-        {
-            type: 'input',
-            name: 'enter',
-            message: `Press ${'ENTER'.magenta} to continue\n`
-        }
-    ]
-    await inquirer.prompt(question)
-}
-
-/**
- * @param {String} message name of the new task
- */
-const readInput = async (message) => {
-    const question = [
-        {
-            type: 'input',
-            name: 'description',
-            message,
-            validate(value) {
-                if (value.length === 0) {
-                    return "Please write the taks's name"
-                }
-                return true
-            }
-        }
-    ]
-    const { description } = await inquirer.prompt(question)
-    return description
+    const {option} = await inquirer.prompt(questions)
+    return option 
 }
 
 module.exports = {
