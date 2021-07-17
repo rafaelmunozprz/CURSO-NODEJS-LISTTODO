@@ -28,7 +28,7 @@ const inquirerMenu = async () => {
 
 const pause = async () => {
     const {option} = await inquirer.prompt(questions)
-    return option
+    return option 
 }
 
 module.exports = {
